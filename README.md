@@ -1,4 +1,4 @@
-# TMDB Movie Explorer 🎬
+# TMDB Movie Explorer
 
 A responsive ASP.NET Core MVC web application that integrates with The Movie Database (TMDB) API to provide comprehensive movie discovery, search, and detailed information browsing.
 
@@ -7,19 +7,19 @@ A responsive ASP.NET Core MVC web application that integrates with The Movie Dat
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.0-purple)
 ![TMDB API](https://img.shields.io/badge/TMDB-API-orange)
 
-## 🚀 Features
+## Features
 
-- **🔥 Browse Popular Movies** - Discover trending and popular films
-- **🏆 Top Rated Movies** - Explore critically acclaimed cinema
-- **🎭 Now Playing** - Check out movies currently in theaters  
-- **🔍 Advanced Search** - Find movies by title, actor, or keyword
-- **📱 Responsive Design** - Optimized for desktop, tablet, and mobile
-- **🔒 Secure API Management** - Protected API keys using ASP.NET Core User Secrets
-- **📄 Detailed Movie Info** - Comprehensive data including ratings, genres, cast, and production details
-- **⚡ Pagination** - Efficient browsing through large movie datasets
-- **🛡️ Error Handling** - Graceful handling of network issues and API failures
+- **Browse Popular Movies** - Discover trending and popular films
+- **Top Rated Movies** - Explore critically acclaimed cinema
+- **Now Playing** - Check out movies currently in theaters  
+- **Advanced Search** - Find movies by title, actor, or keyword
+- **Responsive Design** - Optimized for desktop, tablet, and mobile
+- **Secure API Management** - Protected API keys using ASP.NET Core User Secrets
+- **Detailed Movie Info** - Comprehensive data including ratings, genres, cast, and production details
+- **Pagination** - Efficient browsing through large movie datasets
+- **Error Handling** - Graceful handling of network issues and API failures
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Backend
 - **ASP.NET Core MVC 8.0** - Web framework
@@ -39,13 +39,13 @@ A responsive ASP.NET Core MVC web application that integrates with The Movie Dat
 ### External API
 - **The Movie Database (TMDB) API** - Movie data source
 
-## 📋 Prerequisites
+## Prerequisites
 
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) or later
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/)
 - [TMDB API Key](https://www.themoviedb.org/settings/api) (free registration required)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -84,7 +84,7 @@ Or press `F5` in Visual Studio.
 ### 6. Open in Browser
 Navigate to `https://localhost:5001` or `http://localhost:5000`
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 TMDBMovieExplorer/
@@ -112,7 +112,7 @@ TMDBMovieExplorer/
 └── Program.cs                     # Application configuration
 ```
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### Browsing Movies
 - **Home Page**: View featured movies from different categories
@@ -147,7 +147,7 @@ For production deployment, set the API key using environment variables:
 export TMDB__ApiKey="your_production_api_key"
 ```
 
-## 🛡️ Security Features
+## Security Features
 
 - **User Secrets** - API keys stored securely outside project directory
 - **Input Validation** - Search queries and parameters are validated
@@ -155,7 +155,7 @@ export TMDB__ApiKey="your_production_api_key"
 - **HTTPS Enforcement** - Secure communication enforced
 - **Request Rate Limiting** - Respects TMDB API rate limits
 
-## 🎨 Screenshots
+## Screenshots
 
 ### Home Page
 - Hero section with featured movies
@@ -180,7 +180,7 @@ export TMDB__ApiKey="your_production_api_key"
 - Rating visualization with progress bars
 - Production company logos and genres
 
-## 🧪 Error Handling
+## Error Handling
 
 The application includes comprehensive error handling:
 
@@ -190,7 +190,7 @@ The application includes comprehensive error handling:
 - **Missing Data** - Default images and fallback content
 - **User-Friendly Messages** - Technical errors converted to readable text
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 
@@ -211,15 +211,15 @@ This project demonstrates:
 **Assignment Type**: Pair Programming (2 students maximum)
 
 ### Assignment Requirements Fulfilled
-- ✅ Third-party API integration (TMDB)
-- ✅ Secure API key management
-- ✅ Multiple page user flow
-- ✅ Error handling implementation
-- ✅ Home and About Us pages
-- ✅ Professional code structure
-- ✅ GitHub repository with documentation
+- [X] Third-party API integration (TMDB)
+- [X] Secure API key management
+- [X] Multiple page user flow
+- [X] Error handling implementation
+- [X] Home and About Us pages
+- [X] Professional code structure
+- [X] GitHub repository with documentation
 
-## 👥 Team
+## Team
 
 - **Student 1**: Fakeh Ikwan Hakim - AM2408016617
   - Role: Frontend Development & UI/UX Design
@@ -229,7 +229,7 @@ This project demonstrates:
   - Role: Backend Development & API Integration
   - Responsibilities: Service layer, API integration, error handling
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -237,11 +237,11 @@ This project demonstrates:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 It's a free to use project :)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **The Movie Database (TMDB)** - For providing the comprehensive movie API
 - **Bootstrap Team** - For the excellent CSS framework
@@ -249,7 +249,7 @@ It's a free to use project :)
 - **Microsoft** - For ASP.NET Core and excellent documentation
 - **Course Instructors** - For guidance and assignment requirements
 
-## 📞 Support
+## Support
 
 If you encounter any issues:
 
@@ -260,7 +260,7 @@ If you encounter any issues:
 
 ---
 
-**⭐ If you found this project helpful, please give it a star!**
+**If you found this project helpful, please give it a star!**
 
 ---
 
